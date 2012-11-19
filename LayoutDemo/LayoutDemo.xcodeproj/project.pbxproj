@@ -21,6 +21,7 @@
 		A5B6E2DD1659D13B00947905 /* YXDViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5B6E2DB1659D13B00947905 /* YXDViewController_iPad.xib */; };
 		A5B6E2E51659D16900947905 /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B6E2E41659D16900947905 /* UIView+Layout.m */; };
 		A5B6E2E81659D3AA00947905 /* YXDView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B6E2E71659D3AA00947905 /* YXDView.m */; };
+		A5B6E2EE1659ECBE00947905 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A5B6E2ED1659ECBE00947905 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		A5B6E2E41659D16900947905 /* UIView+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layout.m"; sourceTree = "<group>"; };
 		A5B6E2E61659D3AA00947905 /* YXDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXDView.h; sourceTree = "<group>"; };
 		A5B6E2E71659D3AA00947905 /* YXDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXDView.m; sourceTree = "<group>"; };
+		A5B6E2ED1659ECBE00947905 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 		A5B6E2C41659D13A00947905 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A5B6E2ED1659ECBE00947905 /* README.md */,
 				A5B6E2C51659D13A00947905 /* LayoutDemo-Info.plist */,
 				A5B6E2C61659D13A00947905 /* InfoPlist.strings */,
 				A5B6E2C91659D13A00947905 /* main.m */,
@@ -178,6 +181,7 @@
 				A5B6E2D41659D13B00947905 /* Default-568h@2x.png in Resources */,
 				A5B6E2DA1659D13B00947905 /* YXDViewController_iPhone.xib in Resources */,
 				A5B6E2DD1659D13B00947905 /* YXDViewController_iPad.xib in Resources */,
+				A5B6E2EE1659ECBE00947905 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +321,7 @@
 				A5B6E2E21659D13B00947905 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -19,7 +19,11 @@
     {
         [self sizeToFit];
     }
-    [view addSubview:self];
+    
+    if (!self.superview)
+    {
+        [view addSubview:self];
+    }
     
     CGRect frame = self.frame;
     CGRect parentFrame = view.frame;
