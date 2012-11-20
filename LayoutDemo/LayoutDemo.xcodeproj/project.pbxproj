@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A560FB55165B1DF700D0B16F /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = A560FB54165B1DF700D0B16F /* UIView+Layout.m */; };
 		A5B6E2BE1659D13A00947905 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5B6E2BD1659D13A00947905 /* UIKit.framework */; };
 		A5B6E2C01659D13A00947905 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5B6E2BF1659D13A00947905 /* Foundation.framework */; };
 		A5B6E2C21659D13A00947905 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5B6E2C11659D13A00947905 /* CoreGraphics.framework */; };
@@ -19,12 +20,13 @@
 		A5B6E2D71659D13B00947905 /* YXDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B6E2D61659D13B00947905 /* YXDViewController.m */; };
 		A5B6E2DA1659D13B00947905 /* YXDViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5B6E2D81659D13B00947905 /* YXDViewController_iPhone.xib */; };
 		A5B6E2DD1659D13B00947905 /* YXDViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5B6E2DB1659D13B00947905 /* YXDViewController_iPad.xib */; };
-		A5B6E2E51659D16900947905 /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B6E2E41659D16900947905 /* UIView+Layout.m */; };
 		A5B6E2E81659D3AA00947905 /* YXDView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B6E2E71659D3AA00947905 /* YXDView.m */; };
 		A5B6E2EE1659ECBE00947905 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A5B6E2ED1659ECBE00947905 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A560FB53165B1DF700D0B16F /* UIView+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Layout.h"; path = "../../UIView+Layout.h"; sourceTree = "<group>"; };
+		A560FB54165B1DF700D0B16F /* UIView+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Layout.m"; path = "../../UIView+Layout.m"; sourceTree = "<group>"; };
 		A5B6E2B91659D13A00947905 /* LayoutDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LayoutDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5B6E2BD1659D13A00947905 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A5B6E2BF1659D13A00947905 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -42,8 +44,6 @@
 		A5B6E2D61659D13B00947905 /* YXDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXDViewController.m; sourceTree = "<group>"; };
 		A5B6E2D91659D13B00947905 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/YXDViewController_iPhone.xib; sourceTree = "<group>"; };
 		A5B6E2DC1659D13B00947905 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/YXDViewController_iPad.xib; sourceTree = "<group>"; };
-		A5B6E2E31659D16900947905 /* UIView+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layout.h"; sourceTree = "<group>"; };
-		A5B6E2E41659D16900947905 /* UIView+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layout.m"; sourceTree = "<group>"; };
 		A5B6E2E61659D3AA00947905 /* YXDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXDView.h; sourceTree = "<group>"; };
 		A5B6E2E71659D3AA00947905 /* YXDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXDView.m; sourceTree = "<group>"; };
 		A5B6E2ED1659ECBE00947905 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
@@ -93,8 +93,8 @@
 		A5B6E2C31659D13A00947905 /* LayoutDemo */ = {
 			isa = PBXGroup;
 			children = (
-				A5B6E2E31659D16900947905 /* UIView+Layout.h */,
-				A5B6E2E41659D16900947905 /* UIView+Layout.m */,
+				A560FB53165B1DF700D0B16F /* UIView+Layout.h */,
+				A560FB54165B1DF700D0B16F /* UIView+Layout.m */,
 				A5B6E2CC1659D13A00947905 /* YXDAppDelegate.h */,
 				A5B6E2CD1659D13A00947905 /* YXDAppDelegate.m */,
 				A5B6E2D51659D13B00947905 /* YXDViewController.h */,
@@ -195,8 +195,8 @@
 				A5B6E2CA1659D13A00947905 /* main.m in Sources */,
 				A5B6E2CE1659D13A00947905 /* YXDAppDelegate.m in Sources */,
 				A5B6E2D71659D13B00947905 /* YXDViewController.m in Sources */,
-				A5B6E2E51659D16900947905 /* UIView+Layout.m in Sources */,
 				A5B6E2E81659D3AA00947905 /* YXDView.m in Sources */,
+				A560FB55165B1DF700D0B16F /* UIView+Layout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
