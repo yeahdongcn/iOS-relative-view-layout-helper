@@ -14,3 +14,7 @@ This category provides 2 functions to layout view inside its super view or besid
      withVertexAlignment:(VertexAlignment)vertexAlignment 
               withMargin:(Thickness)margin;
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/yeahdongcn/ios-relative-view-layout-helper/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
